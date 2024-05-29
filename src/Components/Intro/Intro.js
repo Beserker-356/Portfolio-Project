@@ -7,11 +7,12 @@ import boy from "../../Images/boy.png";
 import thumbup from '../../Images/thumbup.png'
 import Crown from '../../Images/crown.png'
 import glassesimoji from '../../Images/glassesimoji.png'
+import "./Intro.css"
 
 function Intro() {
   return (
-    <div>
-      <div>
+    <div className="intro">
+      <div className="i-name">
         <span>Hey! I Am</span>
         <span>Jenish Thapa</span>
         <span>
@@ -31,7 +32,7 @@ function Intro() {
           </a>
         </div>
       </div>
-      <div>
+      <div className="i-right">
         <img src={Vector2} alt="" />
         <img src={boy} alt="" />
         <img src={Vector1} alt="" />
