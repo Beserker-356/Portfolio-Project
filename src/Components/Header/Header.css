@@ -2,7 +2,6 @@
     height: 10vh;
     display: flex;
     justify-content:space-between;
-    margin: 10px 60px;
 }
 
 .n-left{
@@ -13,7 +12,7 @@
 }
 
 .n-name{
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: bold;
 }
 

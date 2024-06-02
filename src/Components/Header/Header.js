@@ -1,4 +1,3 @@
-import Toggle from "../Toggle/Toggle";
 import "./Header.css"
 
 function Navbar() {
@@ -6,7 +5,6 @@ function Navbar() {
     <div className="n-wrapper">
       <div className="n-left">
         <div className="n-name">Jenish</div>
-        <Toggle />
       </div>
       <div className="n-right">
         <nav className="n-list">
@@ -15,20 +13,17 @@ function Navbar() {
               <a href="">Home</a>
             </li>
             <li>
-              <a href="">Services</a>
+              <a href="">About Me</a>
             </li>
             <li>
-              <a href="">Experience</a>
+              <a href="">Skills</a>
             </li>
             <li>
-              <a href="">Portfolio</a>
-            </li>
-            <li>
-              <a href="">Testimonials</a>
+              <a href="">Projects</a>
             </li>
           </ul>
         </nav>
-      <button className="n-button">Contact</button>
+        <button className="n-button">Contact</button>
       </div>
     </div>
   );
