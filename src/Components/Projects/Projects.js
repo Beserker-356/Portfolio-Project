@@ -12,7 +12,7 @@ import "swiper/css/autoplay";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <p>
         Recent <span> Projects</span>
       </p>

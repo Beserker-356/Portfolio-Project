@@ -2,7 +2,7 @@ import "./Header.css"
 
 function Navbar() {
   return (
-    <div className="n-wrapper">
+    <div className="n-wrapper" id="home">
       <div className="n-left">
         <div className="n-name">Jenish</div>
       </div>
@@ -10,20 +10,22 @@ function Navbar() {
         <nav className="n-list">
           <ul>
             <li>
-              <a href="">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="">About Me</a>
+              <a href="#about">About Me</a>
             </li>
             <li>
-              <a href="">Skills</a>
+              <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
           </ul>
         </nav>
-        <button className="n-button">Contact</button>
+        <button className="n-button">
+          <a href="#contact">Contact</a>
+        </button>
       </div>
     </div>
   );

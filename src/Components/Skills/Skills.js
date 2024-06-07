@@ -6,7 +6,7 @@ import "./skills.css";
 
 function Skills() {
     return (
-      <div className="skills">
+      <div className="skills" id="skills">
         <h1>Skills</h1>
         <div className="progress-cont">
           <ProgressBar percent={100} name={"HTML"} />

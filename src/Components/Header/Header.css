@@ -36,10 +36,12 @@
     list-style: none;
 }
 
-.n-list>ul a{
+a{
     text-decoration: none;
     color: black;
     font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 1;
 }
 
 .n-list>ul >li:hover{
