@@ -19,7 +19,7 @@ function Projects() {
       <div className="project-slider">
         <Swiper
           spaceBetween={50}
-          slidesPerView={3}
+          slidesPerView={2}
           grabCursor={true}
           className="slider"
           autoplay={{
@@ -43,11 +43,6 @@ function Projects() {
           <SwiperSlide>
             <a href="https://github.com/Beserker-356/threeJS">
               <img src={Project3} alt="Three JS Website" />
-            </a>
-          </SwiperSlide>
-          <SwiperSlide>
-            <a href="">
-              <img src={Project4} alt="Image Editor" />
             </a>
           </SwiperSlide>
         </Swiper>
