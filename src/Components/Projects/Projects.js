@@ -31,7 +31,7 @@ function Projects() {
           modules={[Autoplay]}
         >
           <SwiperSlide>
-            <a href="">
+            <a href="https://github.com/Beserker-356/Web-Game">
               <img src={Project1} alt="Web Game" />
             </a>
           </SwiperSlide>
@@ -41,7 +41,7 @@ function Projects() {
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <a href="https://github.com/Beserker-356/threeJS">
               <img src={Project3} alt="Three JS Website" />
             </a>
           </SwiperSlide>

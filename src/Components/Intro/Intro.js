@@ -14,7 +14,7 @@ function Intro() {
   const transition = { duration: 1000, type: "spring" };
 
   return (
-    <div className="intro">
+    <div className="intro" id="home">
       <div className="i-left">
         <span>Hey! I Am</span>
         <span>Jenish Thapa</span>
@@ -24,14 +24,11 @@ function Intro() {
         </span>
         <button className="button">Hire Me</button>
         <div className="icons">
-          <a href="">
+          <a href="https://github.com/Beserker-356">
             <img src={Github} alt="" />
           </a>
-          <a href="">
+          <a href="https://linkedin.com/in/jenish-thapa-121471289">
             <img src={Linkdein} alt="" />
-          </a>
-          <a href="">
-            <img src={Instagram} alt="" />
           </a>
         </div>
       </div>

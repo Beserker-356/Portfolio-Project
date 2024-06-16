@@ -4,6 +4,7 @@ h1 {
 }
 
 .skills {
+    padding-top: 5rem;
     min-height: 100vh;
     margin: 0px 150px;
     position: relative;

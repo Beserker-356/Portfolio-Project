@@ -1,8 +1,7 @@
 import Wave from "../../Images/wave.png";
-import Insta from "@iconscout/react-unicons/icons/uil-instagram";
-import FB from "@iconscout/react-unicons/icons/uil-facebook";
+import LinkedIn from "@iconscout/react-unicons/icons/uil-linkedin";
 import GitHub from "@iconscout/react-unicons/icons/uil-github";
-import "./Footer.css"
+import "./Footer.css";
 
 function Footer() {
   return (
@@ -11,9 +10,12 @@ function Footer() {
       <div className="f-content">
         <span>jenishhh.56@gmail.com</span>
         <div className="f-icons">
-          <Insta color="white" size="3rem" />
-          <FB color="white" size="3rem" />
-          <GitHub color="white" size="3rem" />
+          <a href="https://github.com/Beserker-356">
+            <GitHub color="white" size="3rem" />
+          </a>
+          <a href="https://linkedin.com/in/jenish-thapa-121471289">
+            <LinkedIn color="white" size="3rem" />
+          </a>
         </div>
       </div>
     </div>

@@ -5,10 +5,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-}
-
-.about h1 {
-    margin: 50px;
+    padding-top: 5rem;
 }
 
 .abt-cont {
@@ -21,10 +18,5 @@
     align-items: center;
 }
 
-.clouds {
-    position: absolute;
-    top: 10px;
-    left: 100px;
-}
 
 

@@ -2,8 +2,11 @@
   padding: 0 3rem 0 3rem;
   display: flex;
   height: 50vh;
-  margin-top: 4rem;
   position: relative;
+}
+
+.f-left {
+  margin-top: 7rem;
 }
 
 .f-right {
@@ -11,6 +14,7 @@
   justify-content: center;
   position: relative;
   flex: 1;
+  margin-top: 7rem;
 }
 
 .f-right > form {
