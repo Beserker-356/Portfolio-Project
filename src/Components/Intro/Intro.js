@@ -14,7 +14,7 @@ function Intro() {
   const transition = { duration: 1000, type: "spring" };
 
   return (
-    <div className="intro" id="home">
+    <div className="intro">
       <div className="i-left">
         <span>Hey! I Am</span>
         <span>Jenish Thapa</span>

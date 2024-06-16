@@ -1,6 +1,6 @@
 import "./Header.css"
 
-function Navbar() {
+function Header() {
   return (
     <div className="n-wrapper" id="home">
       <div className="n-left">
@@ -10,7 +10,7 @@ function Navbar() {
         <nav className="n-list">
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <a href="">Home</a>
             </li>
             <li>
               <a href="#about">About Me</a>
@@ -31,4 +31,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Header;
